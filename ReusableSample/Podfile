@@ -1,0 +1,16 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.0'
+use_frameworks!
+
+target 'ReusableSample' do
+
+pod 'FBSDKCoreKit'
+pod 'FBSDKLoginKit'
+pod 'FBSDKShareKit'
+pod 'Google'
+pod 'Google/SignIn'
+pod 'Fabric'
+pod 'TwitterKit'
+pod 'TwitterCore'
+
+end
