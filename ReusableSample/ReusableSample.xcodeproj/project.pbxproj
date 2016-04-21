@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A584BBCBBF9913E5C1644A62 /* Pods_ReusableSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DBEBC11E621B8852EA5A8A /* Pods_ReusableSample.framework */; };
-		C923B2B81C8EA223008691AA /* ABSocialManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C923B2B71C8EA223008691AA /* ABSocialManager.swift */; };
+		C923B2B81C8EA223008691AA /* SocialManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C923B2B71C8EA223008691AA /* SocialManager.swift */; };
 		C926AD7C1C8948A100A470D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926AD7B1C8948A100A470D3 /* AppDelegate.swift */; };
 		C926AD831C8948A100A470D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C926AD821C8948A100A470D3 /* Assets.xcassets */; };
 		C926AD861C8948A100A470D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C926AD841C8948A100A470D3 /* LaunchScreen.storyboard */; };
@@ -17,19 +17,21 @@
 		C926ADB81C894A1200A470D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C926ADB11C894A1200A470D3 /* Main.storyboard */; };
 		C926ADB91C894A1200A470D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926ADB21C894A1200A470D3 /* ViewController.swift */; };
 		C926ADBA1C894A1200A470D3 /* ABSwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926ADB61C894A1200A470D3 /* ABSwiftyJSON.swift */; };
-		C926ADBE1C899B7D00A470D3 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926ADBD1C899B7D00A470D3 /* StringExtension.swift */; };
 		C926ADC21C899B8600A470D3 /* ABResponseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926ADBF1C899B8600A470D3 /* ABResponseItem.swift */; };
 		C926ADC31C899B8600A470D3 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926ADC01C899B8600A470D3 /* RequestManager.swift */; };
 		C926ADC41C899B8600A470D3 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926ADC11C899B8600A470D3 /* SearchResponse.swift */; };
 		C926ADC61C899B9600A470D3 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926ADC51C899B9600A470D3 /* TableCell.swift */; };
 		C926ADC81C89A59300A470D3 /* AlertControllerExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926ADC71C89A59300A470D3 /* AlertControllerExtention.swift */; };
 		C93CF6D81C97F1C100E91281 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C93CF6D71C97F1C100E91281 /* GoogleService-Info.plist */; };
-		C9F325071C96B89F00D229EE /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F325061C96B89F00D229EE /* UIApplicationExtension.swift */; };
 		C9F3C85E1C9979CE0051F1DA /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F3C85D1C9979CE0051F1DA /* KeyboardViewController.swift */; };
 		C9F65A4C1C991F2000F75FD0 /* CustomLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F65A4B1C991F2000F75FD0 /* CustomLoginViewController.swift */; };
 		C9F81EFD1C8FE24A00319CC6 /* AlertsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F81EFC1C8FE24A00319CC6 /* AlertsViewController.swift */; };
-		DB309B031CBF8ACF005F9F81 /* SelfCheckTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB309B021CBF8ACF005F9F81 /* SelfCheckTextField.swift */; };
-		DB309B051CBF8B07005F9F81 /* NSErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB309B041CBF8B07005F9F81 /* NSErrorExtension.swift */; };
+		DB309B0B1CBF9B6E005F9F81 /* PresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB309B061CBF9B6E005F9F81 /* PresentationAnimator.swift */; };
+		DB309B141CBF9CFD005F9F81 /* PushAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB309B131CBF9CFD005F9F81 /* PushAnimator.swift */; };
+		DBF689091CC5E8F800A5832F /* NSErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF689061CC5E8F800A5832F /* NSErrorExtension.swift */; };
+		DBF6890A1CC5E8F800A5832F /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF689071CC5E8F800A5832F /* StringExtension.swift */; };
+		DBF6890B1CC5E8F800A5832F /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF689081CC5E8F800A5832F /* UIApplicationExtension.swift */; };
+		DBF6890D1CC5E91600A5832F /* SelfCheckTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF6890C1CC5E91600A5832F /* SelfCheckTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +55,7 @@
 		0530BCFD00C6AAD551E54AD5 /* Pods-ReusableSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReusableSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReusableSample/Pods-ReusableSample.release.xcconfig"; sourceTree = "<group>"; };
 		16529729D213859488426552 /* Pods-ReusableSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReusableSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReusableSample/Pods-ReusableSample.debug.xcconfig"; sourceTree = "<group>"; };
 		C5DBEBC11E621B8852EA5A8A /* Pods_ReusableSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReusableSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C923B2B71C8EA223008691AA /* ABSocialManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABSocialManager.swift; sourceTree = "<group>"; };
+		C923B2B71C8EA223008691AA /* SocialManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialManager.swift; sourceTree = "<group>"; };
 		C923B2C21C8EB4A9008691AA /* ReusableSample-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ReusableSample-Bridging-Header.h"; sourceTree = "<group>"; };
 		C926AD781C8948A100A470D3 /* ReusableSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReusableSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C926AD7B1C8948A100A470D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,19 +71,21 @@
 		C926ADB11C894A1200A470D3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C926ADB21C894A1200A470D3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C926ADB61C894A1200A470D3 /* ABSwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABSwiftyJSON.swift; sourceTree = "<group>"; };
-		C926ADBD1C899B7D00A470D3 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		C926ADBF1C899B8600A470D3 /* ABResponseItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABResponseItem.swift; sourceTree = "<group>"; };
 		C926ADC01C899B8600A470D3 /* RequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
 		C926ADC11C899B8600A470D3 /* SearchResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		C926ADC51C899B9600A470D3 /* TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 		C926ADC71C89A59300A470D3 /* AlertControllerExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertControllerExtention.swift; sourceTree = "<group>"; };
 		C93CF6D71C97F1C100E91281 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "View/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		C9F325061C96B89F00D229EE /* UIApplicationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
 		C9F3C85D1C9979CE0051F1DA /* KeyboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		C9F65A4B1C991F2000F75FD0 /* CustomLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLoginViewController.swift; sourceTree = "<group>"; };
 		C9F81EFC1C8FE24A00319CC6 /* AlertsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertsViewController.swift; sourceTree = "<group>"; };
-		DB309B021CBF8ACF005F9F81 /* SelfCheckTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfCheckTextField.swift; sourceTree = "<group>"; };
-		DB309B041CBF8B07005F9F81 /* NSErrorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSErrorExtension.swift; sourceTree = "<group>"; };
+		DB309B061CBF9B6E005F9F81 /* PresentationAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationAnimator.swift; sourceTree = "<group>"; };
+		DB309B131CBF9CFD005F9F81 /* PushAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushAnimator.swift; sourceTree = "<group>"; };
+		DBF689061CC5E8F800A5832F /* NSErrorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSErrorExtension.swift; sourceTree = "<group>"; };
+		DBF689071CC5E8F800A5832F /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		DBF689081CC5E8F800A5832F /* UIApplicationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
+		DBF6890C1CC5E91600A5832F /* SelfCheckTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfCheckTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,9 +203,9 @@
 		C926ADB31C894A1200A470D3 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				C926ADBD1C899B7D00A470D3 /* StringExtension.swift */,
-				DB309B041CBF8B07005F9F81 /* NSErrorExtension.swift */,
-				C9F325061C96B89F00D229EE /* UIApplicationExtension.swift */,
+				DBF689061CC5E8F800A5832F /* NSErrorExtension.swift */,
+				DBF689071CC5E8F800A5832F /* StringExtension.swift */,
+				DBF689081CC5E8F800A5832F /* UIApplicationExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -219,10 +223,12 @@
 		C926ADB51C894A1200A470D3 /* Reusable */ = {
 			isa = PBXGroup;
 			children = (
+				DB309B061CBF9B6E005F9F81 /* PresentationAnimator.swift */,
+				DB309B131CBF9CFD005F9F81 /* PushAnimator.swift */,
 				C926ADB61C894A1200A470D3 /* ABSwiftyJSON.swift */,
 				C926ADC71C89A59300A470D3 /* AlertControllerExtention.swift */,
 				C9F3C85D1C9979CE0051F1DA /* KeyboardViewController.swift */,
-				C923B2B71C8EA223008691AA /* ABSocialManager.swift */,
+				C923B2B71C8EA223008691AA /* SocialManager.swift */,
 			);
 			path = Reusable;
 			sourceTree = "<group>";
@@ -230,7 +236,7 @@
 		C926ADB71C894A1200A470D3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DB309B021CBF8ACF005F9F81 /* SelfCheckTextField.swift */,
+				DBF6890C1CC5E91600A5832F /* SelfCheckTextField.swift */,
 				C926ADC51C899B9600A470D3 /* TableCell.swift */,
 			);
 			path = View;
@@ -434,20 +440,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				C926ADC41C899B8600A470D3 /* SearchResponse.swift in Sources */,
-				C926ADBE1C899B7D00A470D3 /* StringExtension.swift in Sources */,
 				C926ADC61C899B9600A470D3 /* TableCell.swift in Sources */,
+				DBF689091CC5E8F800A5832F /* NSErrorExtension.swift in Sources */,
 				C926ADC81C89A59300A470D3 /* AlertControllerExtention.swift in Sources */,
+				DBF6890A1CC5E8F800A5832F /* StringExtension.swift in Sources */,
 				C9F65A4C1C991F2000F75FD0 /* CustomLoginViewController.swift in Sources */,
 				C926ADBA1C894A1200A470D3 /* ABSwiftyJSON.swift in Sources */,
 				C926ADC21C899B8600A470D3 /* ABResponseItem.swift in Sources */,
 				C926ADC31C899B8600A470D3 /* RequestManager.swift in Sources */,
-				C923B2B81C8EA223008691AA /* ABSocialManager.swift in Sources */,
-				DB309B051CBF8B07005F9F81 /* NSErrorExtension.swift in Sources */,
+				C923B2B81C8EA223008691AA /* SocialManager.swift in Sources */,
 				C926ADB91C894A1200A470D3 /* ViewController.swift in Sources */,
-				DB309B031CBF8ACF005F9F81 /* SelfCheckTextField.swift in Sources */,
+				DB309B0B1CBF9B6E005F9F81 /* PresentationAnimator.swift in Sources */,
+				DBF6890B1CC5E8F800A5832F /* UIApplicationExtension.swift in Sources */,
 				C9F3C85E1C9979CE0051F1DA /* KeyboardViewController.swift in Sources */,
+				DBF6890D1CC5E91600A5832F /* SelfCheckTextField.swift in Sources */,
 				C9F81EFD1C8FE24A00319CC6 /* AlertsViewController.swift in Sources */,
-				C9F325071C96B89F00D229EE /* UIApplicationExtension.swift in Sources */,
+				DB309B141CBF9CFD005F9F81 /* PushAnimator.swift in Sources */,
 				C926AD7C1C8948A100A470D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,10 +10,15 @@ import UIKit
 
 class CustomLoginViewController: KeyboardViewController {
 
-    func loadNextViewController() {
+    var animator: RevealAnimator?
+    
+    @IBAction func login(sender: UIButton) {
         let controller = UIViewController()
         controller.view.backgroundColor = UIColor.redColor()
-        presentViewController(controller, animated: true, completion: nil)
+        let animator = RevealAnimator.animator()
+        self.animator = animator
+        animator.revealType = .Right
+        animator.presentController(controller, fromController: self)
     }
     
     @IBAction func signInButtonTapped(sender: UIButton) {
